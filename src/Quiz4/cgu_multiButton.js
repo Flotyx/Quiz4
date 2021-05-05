@@ -9,8 +9,6 @@ const changeText=(event)=>{
   
   const multiButton=(num)=>{
     var output=[];
-    //output.push(<IconButton color="primary" aria-label="add to shopping cart">
-    //<AddShoppingCartIcon/></IconButton>)
     for(let i=1;i<num+1;++i)
     output.push(<Button variant="contained" color="secondary" 
     onClick={changeText}>第{i}個按鍵  </Button>)
